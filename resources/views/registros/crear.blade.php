@@ -1,5 +1,8 @@
 @extends('layouts.app')
 
+@section('indexActive')
+    active
+@stop
 @section('contenido')
 
 <h1>Página Principal</h1>

@@ -34,8 +34,8 @@
     <!-- Collect the nav links, forms, and other content for toggling -->
     <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
       <ul class="nav navbar-nav">
-        <li class="active"><a href="#">Inicio <span class="sr-only">(current)</span></a></li>
-        <li><a href="#">Listar Registros</a></li>        
+        <li class="@yield('indexActive')"><a href="{!! url('/'); !!}">Inicio <span class="sr-only">(current)</span></a></li>
+        <li class="@yield('listarActive')"><a href="{!! url('listar'); !!}">Listar Registros</a></li>        
       </ul>
       
     </div><!-- /.navbar-collapse -->
